@@ -126,6 +126,8 @@ for (const [theme, config] of themes) {
             el, theme,
             default: '#42445a'
         }, config));
+
+        pickr.on('change', ())
     });
 
     themeContainer.appendChild(button);
