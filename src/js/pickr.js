@@ -806,7 +806,6 @@ class Pickr {
      * @param silent
      */
     setColor(string, silent = false) {
-      this.changeSource = 'api';
 
         // Check if null
         if (string === null) {
